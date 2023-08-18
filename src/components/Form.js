@@ -5,7 +5,7 @@ function Form() {
   const [lastName, setLastName] = useState("Henry");
 
   return (
-    <form>
+    <form>   
       <input type="text" value={firstName} />
       <input type="text" value={lastName} />
       <button type="submit">Submit</button>
